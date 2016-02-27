@@ -4,28 +4,23 @@
  * and open the template in the editor.
  */
 package AirplaneSeating;
-
-import java.io.IOException;
-
+import java.util.Scanner;
 /**
  *
- * @author Konnoke aka Kevin Baik
- * 
+ * @author Konnoke
  */
 public class AirplaneSeating {
 
     /**
      * @param args the command line arguments
-     * @throws java.io.IOException
      */
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         
         Airplane plane = new Airplane();
+        Scanner scnr = new Scanner(System.in);
+        //String command = scnr.nextLine();
+        
         plane.showSeating();
-        
-        
-        
-        plane.run();
         
         
         
